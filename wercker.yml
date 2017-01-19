@@ -25,5 +25,5 @@ deploy:
       username: $USERNAME
       password: $PASSWORD
       tag: latest
-      repository: dssafford/pipeline
+      repository: dssafford/getting-started-java
       registry: https://registry.hub.docker.com
