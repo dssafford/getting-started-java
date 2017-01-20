@@ -22,8 +22,8 @@ build:
 deploy:
   steps:
     - internal/docker-push:
-#      username: $USERNAME
-#      password: $PASSWORD
+      username: $USERNAME
+      password: $PASSWORD
       tag: latest
       repository: dssafford/getting-started-java
       registry: https://registry.hub.docker.com
